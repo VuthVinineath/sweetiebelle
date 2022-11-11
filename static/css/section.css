@@ -1,0 +1,27 @@
+#section_traditional
+{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    /* border: 1px solid red; */
+    padding: 4pc 0px;
+    /* background-image: url("../images/dessert.jfif"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#Section2{
+    width: 100%;
+    height: auto;
+    min-height: 20pc;
+    padding: 4pc 0px;
+    /* background-image: url("../images/dessert.jfif"); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    margin-bottom: 10px; */
+    background-color: #2c292f;
+
+}
