@@ -12,14 +12,15 @@ body{
     background-color:pink;
 }
 .nav_header{
-    /* background-image: url("../images/dessert.jfif"); */
-    min-height: 30pc;
+    background-image: url("../image/background5.jpg");
+    min-height: 50pc;
     border-bottom: 1px solid #ddd;
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+	padding-left: 10px;
 }
 .active{
     border-bottom: 1px solid #35393d;

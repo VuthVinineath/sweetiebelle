@@ -1,4 +1,5 @@
 {% extends '../index.html' %}
+{% load static %}
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
 {% block title %} Home {% endblock title %}
 {% block content %}
@@ -10,29 +11,29 @@
           <div class="row g-3" style="margin-top: 20px;">
             <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="p-3 border text-center">
-                <img src="/images/dessert.jfif" alt="dessert1">
+                <img width="100%" src="{% static 'image/crinkles.jpg' %}" alt="crinkles">
                 <p  class="fs-5 fw-normal mt-5">Crinkles</p>
                 <p class="fs-6 fw-normal text-muted">Lorem Ipsum proin gravida nibh vel velit auctor sit lorem.</p>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 ">
               <div class="p-3 border text-center">
-                <img src="/images/dessert.jfif" alt="dessert1">
+                <img width="100%" src="{% static 'image/Florentines.jpg' %}" alt="Florentines">
                 <p  class="fs-5 fw-normal mt-5">Florentines</p>
                 <p class="fs-6 fw-normal text-muted">Lorem Ipsum proin gravida nibh vel velit auctor sit lorem.</p>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="p-3 border text-center">
-                <img src="/images/dessert.jfif" alt="dessert1">
-                <p  class="fs-5 fw-normal mt-5">Angeletti</p>
+                <img width="100%" src="{% static 'image/macaroon_pink.jpg' %}" alt="macaroon_pink">
+                <p  class="fs-5 fw-normal mt-5">Macaroon</p>
                 <p class="fs-6 fw-normal text-muted">Lorem Ipsum proin gravida nibh vel velit auctor sit lorem.</p>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="p-3 border text-center">
-                <img src="/images/dessert.jfif" alt="dessert1">
-                <p  class="fs-5 fw-normal mt-5">Macaroons</p>
+                <img width="100%" src="{% static 'image/oatmeal.jpg' %}" alt="oatmeal">
+                <p  class="fs-5 fw-normal mt-5">Oatmeal</p>
                 <p class="fs-6 fw-normal text-muted">Lorem Ipsum proin gravida nibh vel velit auctor sit lorem.</p>
               </div>
             </div>
